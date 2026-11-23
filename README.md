@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🌧️ Interactive Weather, Walk & Impact Simulator
 
-# Run and deploy your AI Studio app
+An interactive web application built with **React**, **TypeScript**, and **Vite**. The project combines dynamic canvas rendering, custom sound/audio engines, multiple time/location modes, and interactive simulation pages[cite: 1].
 
-This contains everything you need to run your app locally.
+## ✨ Key Features
 
-View your app in AI Studio: https://ai.studio/apps/819a1c57-ba73-470d-a63c-edf6ffeea28d
+* **Rain & Storm Simulations:** Experience different rain types, locations, time modes, and storm break sequences with real-time canvas rendering and audio engines[cite: 1].
+* **Umbrella Walk Mode:** Explore curated locations and scenes with dedicated visual rendering and preview cards[cite: 1].
+* **Impact & Disaster Simulator:** Interactive stage canvas, scene selection, live stats dashboard, and sound effects for impact simulations[cite: 1].
+* **Interactive Controls & UI:** Control dock, quick drawer, scene preview cards, ripple wipe & crack visual overlays, and a brand logo animation lab[cite: 1].
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+* **Frontend:** React, TypeScript[cite: 1]
+* **Build Tool:** Vite[cite: 1]
+* **Styling:** CSS (`src/index.css`)[cite: 1]
+* **Graphics & Audio:** HTML5 Canvas renderers & custom Web/procedural audio engines[cite: 1]
 
+## 📁 Project Structure
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```text
+src/
+├── components/     # UI controls, canvas views, overlays, cards & logo lab
+├── data/           # Rain types, locations, time modes, umbrella & disaster scenes
+├── pages/          # StormBreakPage, UmbrellaWalkPage, ImpactSimulatorPage
+├── types/          # TypeScript definitions
+└── utils/          # Canvas scene renderers, audio engines & impact logic
