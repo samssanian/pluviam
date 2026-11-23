@@ -1,0 +1,6 @@
+{
+  "name": "Pluviam",
+  "description": "Cinematic interactive rain experience across 30 rain types, 26 atmospheric locations, and 4 time modes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
